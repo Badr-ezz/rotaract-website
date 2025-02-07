@@ -2,6 +2,7 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 .hero-container {
@@ -25,14 +26,14 @@
     line-height: 4rem;
 }
 
-.orange-circle {
+.pink-circle {
     height: 4rem;
     width: 4rem;
     background : var(--purple-gradient);
     border-radius: 100%;
     position: absolute;
-    right: 28%;
-    top: -10px;
+    right: -10%;
+    top: -20px;
     z-index: -1;  
 }
 
@@ -60,16 +61,16 @@
 }
 
 .stat>:nth-child(1)>:last-child{
-    color: orange;
+    color: rgb(223, 93, 115);
 }
 
 /* right side*/
 
 .image-container {
     width: 30rem;
-    height: 35rem;
+    height: 32rem;
     overflow: hidden;
-    border-radius: 15rem 15rem 0 0;
+    border-radius: 50px;
     border: 8px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -77,3 +78,6 @@
     width: 100%;
     height: 100%;
 }
+
+
+  

@@ -4,13 +4,15 @@
 
 .contact {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #222;
-
+    margin-bottom: 2rem;
+    width: 65%;
+    border-radius: 15px;
 }
 
 .contact .content {
@@ -22,6 +24,7 @@
     font-size: 3em;
     color: #fff;
     font-weight: 500;
+    margin-top: 2rem;
 }
 
 .contact .content p {
@@ -31,7 +34,7 @@
 }
 
 .c-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +142,7 @@
 
 .c-container .contactForm {
     position: relative;
-    width: 40%;
+    width: 60%;
     background: repeating-conic-gradient(from var(--a),
     #01dbc2 0%,#01dbc2 10%, transparent 10% , transparent 50%);
     animation: animate 6s linear infinite ;

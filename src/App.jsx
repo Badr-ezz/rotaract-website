@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <div className="white-gradient"/>
+        <div className="pink-gradient"/>
         <Header /> 
         <Hero />
       </div>

@@ -8,11 +8,12 @@
     position: relative;
 }
 
-.white-gradient {
+.pink-gradient {
     position: absolute;
     width: 20rem;
     height: 20rem;
-    background: rgba(128, 0, 128, 0.5);
-    filter: blur(70px);
+    background: rgba(166, 0, 80, 0.9);
+
+    filter: blur(100px);
     /* border-radius: 100px; */
 }

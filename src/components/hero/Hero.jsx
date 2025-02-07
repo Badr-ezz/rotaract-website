@@ -10,20 +10,19 @@ const Hero = () => {
         {/* left side  */}
         <div className="flexColStart hero-left">
             <div className="hero-title">
-                <div className="orange-circle"/>
+                <div className="pink-circle"/>
                 <h1>
-                    Discover <br />
-                    Most suitable <br /> Property
+                    Welcome <br />
+                    To<br /> Rotaract  
                 </h1>
             </div>
 
             <div className="flexColStart hero-des">
-                <span className="secondaryText">Find a variety of properties that suit you very easilty</span> 
-                <span className="">Forget all difficulties in finding a residence for you</span>
+                <span className="">Empowering youth, serving communities!</span>
             </div>
 
             <div className="flexCenter search-bar">
-                <HiLocationMarker color = "var(--blue)" size ={25} />
+                <HiLocationMarker color = "#a50050" size ={25} />
                 <input type="text" />
                 <button className="button">Search</button>
             </div>
@@ -57,7 +56,7 @@ const Hero = () => {
         {/* right side  */}
         <div className="flexCenter hero-right">
           <div className="image-container">
-            <img src="./hero-image.png" alt="hero image" />
+            <img src="./logoo.png" alt="hero image" />
           </div>
         </div>
       </div>
